@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF693B9C1C97EB970013FB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF693B9B1C97EB970013FB86 /* AppDelegate.swift */; };
+		AF693BA11C97EB970013FB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF693B9F1C97EB970013FB86 /* Main.storyboard */; };
+		AF693BA31C97EB970013FB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF693BA21C97EB970013FB86 /* Assets.xcassets */; };
+		AF693BA61C97EB970013FB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF693BA41C97EB970013FB86 /* LaunchScreen.storyboard */; };
+		AF693BBF1C97EBDC0013FB86 /* Aventurier-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AF693BAD1C97EBDC0013FB86 /* Aventurier-1.png */; };
+		AF693BC01C97EBDC0013FB86 /* AventurierBoyHead.png in Resources */ = {isa = PBXBuildFile; fileRef = AF693BAE1C97EBDC0013FB86 /* AventurierBoyHead.png */; };
+		AF693BC21C97EBDC0013FB86 /* AventurierGirlHead.png in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB01C97EBDC0013FB86 /* AventurierGirlHead.png */; };
+		AF693BC31C97EBDC0013FB86 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB11C97EBDC0013FB86 /* bird.jpg */; };
+		AF693BC41C97EBDC0013FB86 /* blue-polkadot-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB21C97EBDC0013FB86 /* blue-polkadot-background.jpg */; };
+		AF693BC51C97EBDC0013FB86 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB31C97EBDC0013FB86 /* cat.png */; };
+		AF693BC61C97EBDC0013FB86 /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB41C97EBDC0013FB86 /* dog.jpeg */; };
+		AF693BC71C97EBDC0013FB86 /* eiffel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB51C97EBDC0013FB86 /* eiffel.jpg */; };
+		AF693BC81C97EBDC0013FB86 /* FlashcardLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF693BB61C97EBDC0013FB86 /* FlashcardLesson.swift */; };
+		AF693BC91C97EBDC0013FB86 /* orange-polkadot-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF693BB71C97EBDC0013FB86 /* orange-polkadot-background.jpg */; };
+		AF693BCA1C97EBDC0013FB86 /* PlaytimeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF693BB81C97EBDC0013FB86 /* PlaytimeScreen.swift */; };
+		AF693BCB1C97EBDC0013FB86 /* ProgressScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF693BB91C97EBDC0013FB86 /* ProgressScreen.swift */; };
+		AF693BCC1C97EBDC0013FB86 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF693BBA1C97EBDC0013FB86 /* SettingsPage.swift */; };
+		AF693BCD1C97EBDC0013FB86 /* snake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF693BBB1C97EBDC0013FB86 /* snake.jpg */; };
+		AF693BCE1C97EBDC0013FB86 /* title_notext.png in Resources */ = {isa = PBXBuildFile; fileRef = AF693BBC1C97EBDC0013FB86 /* title_notext.png */; };
+		AF693BCF1C97EBDC0013FB86 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = AF693BBD1C97EBDC0013FB86 /* title.png */; };
+		AF693BD01C97EBDC0013FB86 /* TitleScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF693BBE1C97EBDC0013FB86 /* TitleScreen.swift */; };
+		AF7826301CA133EA00885139 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78262F1CA133E900885139 /* CollectionViewController.swift */; };
+		AF7826321CA1344B00885139 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7826311CA1344B00885139 /* DateCollectionViewCell.swift */; };
+		AF7826341CA1353C00885139 /* DateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7826331CA1353C00885139 /* DateCollectionViewCell.xib */; };
+		AF7826361CA1367000885139 /* ContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7826351CA1367000885139 /* ContentCollectionViewCell.xib */; };
+		AF7826381CA136E400885139 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7826371CA136E400885139 /* ContentCollectionViewCell.swift */; };
+		AF78263A1CA1375300885139 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7826391CA1375300885139 /* CollectionViewController.xib */; };
+		AF78263C1CA137F400885139 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF78263B1CA137F400885139 /* CustomCollectionViewLayout.swift */; };
+		AFD6E9091C989F3B0055D0B4 /* FlashcardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6E9031C989F3B0055D0B4 /* FlashcardGame.swift */; };
+		AFD6E90A1C989F3B0055D0B4 /* garden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFD6E9041C989F3B0055D0B4 /* garden.jpg */; };
+		AFD6E90B1C989F3B0055D0B4 /* house.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFD6E9051C989F3B0055D0B4 /* house.jpg */; };
+		AFD6E90C1C989F3B0055D0B4 /* LessonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6E9061C989F3B0055D0B4 /* LessonPage.swift */; };
+		AFD6E90D1C989F3B0055D0B4 /* library.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFD6E9071C989F3B0055D0B4 /* library.jpg */; };
+		AFD6E90E1C989F3B0055D0B4 /* playground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AFD6E9081C989F3B0055D0B4 /* playground.jpg */; };
+		AFD6E9111C98C3780055D0B4 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD6E9101C98C3780055D0B4 /* TableView.swift */; };
+		D52848EA33953D046A560D87 /* Pods_LePetitAventurier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD915CB3547B2837E447577 /* Pods_LePetitAventurier.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		678EC46BB3CD817C87C5653C /* Pods-LePetitAventurier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LePetitAventurier.release.xcconfig"; path = "Pods/Target Support Files/Pods-LePetitAventurier/Pods-LePetitAventurier.release.xcconfig"; sourceTree = "<group>"; };
+		7FD915CB3547B2837E447577 /* Pods_LePetitAventurier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LePetitAventurier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF693B981C97EB970013FB86 /* LePetitAventurier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LePetitAventurier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF693B9B1C97EB970013FB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF693BA01C97EB970013FB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF693BA21C97EB970013FB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF693BA51C97EB970013FB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF693BA71C97EB970013FB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF693BAD1C97EBDC0013FB86 /* Aventurier-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aventurier-1.png"; sourceTree = "<group>"; };
+		AF693BAE1C97EBDC0013FB86 /* AventurierBoyHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AventurierBoyHead.png; sourceTree = "<group>"; };
+		AF693BB01C97EBDC0013FB86 /* AventurierGirlHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AventurierGirlHead.png; sourceTree = "<group>"; };
+		AF693BB11C97EBDC0013FB86 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
+		AF693BB21C97EBDC0013FB86 /* blue-polkadot-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-polkadot-background.jpg"; sourceTree = "<group>"; };
+		AF693BB31C97EBDC0013FB86 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		AF693BB41C97EBDC0013FB86 /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		AF693BB51C97EBDC0013FB86 /* eiffel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eiffel.jpg; sourceTree = "<group>"; };
+		AF693BB61C97EBDC0013FB86 /* FlashcardLesson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashcardLesson.swift; sourceTree = "<group>"; };
+		AF693BB71C97EBDC0013FB86 /* orange-polkadot-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "orange-polkadot-background.jpg"; sourceTree = "<group>"; };
+		AF693BB81C97EBDC0013FB86 /* PlaytimeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaytimeScreen.swift; sourceTree = "<group>"; };
+		AF693BB91C97EBDC0013FB86 /* ProgressScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressScreen.swift; sourceTree = "<group>"; };
+		AF693BBA1C97EBDC0013FB86 /* SettingsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		AF693BBB1C97EBDC0013FB86 /* snake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snake.jpg; sourceTree = "<group>"; };
+		AF693BBC1C97EBDC0013FB86 /* title_notext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_notext.png; sourceTree = "<group>"; };
+		AF693BBD1C97EBDC0013FB86 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		AF693BBE1C97EBDC0013FB86 /* TitleScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScreen.swift; sourceTree = "<group>"; };
+		AF693BD21C9807350013FB86 /* LePetitAventurier-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LePetitAventurier-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF78262F1CA133E900885139 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		AF7826311CA1344B00885139 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF7826331CA1353C00885139 /* DateCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF7826351CA1367000885139 /* ContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		AF7826371CA136E400885139 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		AF7826391CA1375300885139 /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		AF78263B1CA137F400885139 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
+		AFD6E9031C989F3B0055D0B4 /* FlashcardGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashcardGame.swift; sourceTree = "<group>"; };
+		AFD6E9041C989F3B0055D0B4 /* garden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = garden.jpg; sourceTree = "<group>"; };
+		AFD6E9051C989F3B0055D0B4 /* house.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = house.jpg; sourceTree = "<group>"; };
+		AFD6E9061C989F3B0055D0B4 /* LessonPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonPage.swift; sourceTree = "<group>"; };
+		AFD6E9071C989F3B0055D0B4 /* library.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = library.jpg; sourceTree = "<group>"; };
+		AFD6E9081C989F3B0055D0B4 /* playground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playground.jpg; sourceTree = "<group>"; };
+		AFD6E9101C98C3780055D0B4 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		E73B21009CF24AB1D371A1E7 /* Pods-LePetitAventurier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LePetitAventurier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LePetitAventurier/Pods-LePetitAventurier.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF693B951C97EB970013FB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D52848EA33953D046A560D87 /* Pods_LePetitAventurier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B70AE386CD05A53EB7508E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD915CB3547B2837E447577 /* Pods_LePetitAventurier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BC30C3CAF5364E75B8D4C70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E73B21009CF24AB1D371A1E7 /* Pods-LePetitAventurier.debug.xcconfig */,
+				678EC46BB3CD817C87C5653C /* Pods-LePetitAventurier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF693B8F1C97EB970013FB86 = {
+			isa = PBXGroup;
+			children = (
+				AF693B9A1C97EB970013FB86 /* LePetitAventurier */,
+				AF693B991C97EB970013FB86 /* Products */,
+				7BC30C3CAF5364E75B8D4C70 /* Pods */,
+				5B70AE386CD05A53EB7508E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF693B991C97EB970013FB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF693B981C97EB970013FB86 /* LePetitAventurier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF693B9A1C97EB970013FB86 /* LePetitAventurier */ = {
+			isa = PBXGroup;
+			children = (
+				AFD6E9031C989F3B0055D0B4 /* FlashcardGame.swift */,
+				AFD6E9041C989F3B0055D0B4 /* garden.jpg */,
+				AFD6E9051C989F3B0055D0B4 /* house.jpg */,
+				AFD6E9061C989F3B0055D0B4 /* LessonPage.swift */,
+				AFD6E9071C989F3B0055D0B4 /* library.jpg */,
+				AFD6E9081C989F3B0055D0B4 /* playground.jpg */,
+				AF693BAD1C97EBDC0013FB86 /* Aventurier-1.png */,
+				AF693BAE1C97EBDC0013FB86 /* AventurierBoyHead.png */,
+				AF693BB01C97EBDC0013FB86 /* AventurierGirlHead.png */,
+				AF693BB11C97EBDC0013FB86 /* bird.jpg */,
+				AF693BB21C97EBDC0013FB86 /* blue-polkadot-background.jpg */,
+				AF693BB31C97EBDC0013FB86 /* cat.png */,
+				AF693BB41C97EBDC0013FB86 /* dog.jpeg */,
+				AF693BB51C97EBDC0013FB86 /* eiffel.jpg */,
+				AF693BB61C97EBDC0013FB86 /* FlashcardLesson.swift */,
+				AF693BB71C97EBDC0013FB86 /* orange-polkadot-background.jpg */,
+				AF693BB81C97EBDC0013FB86 /* PlaytimeScreen.swift */,
+				AF693BB91C97EBDC0013FB86 /* ProgressScreen.swift */,
+				AF693BBA1C97EBDC0013FB86 /* SettingsPage.swift */,
+				AF693BBB1C97EBDC0013FB86 /* snake.jpg */,
+				AF78263D1CA1388000885139 /* Tables */,
+				AF693BBD1C97EBDC0013FB86 /* title.png */,
+				AF693BBC1C97EBDC0013FB86 /* title_notext.png */,
+				AF693BBE1C97EBDC0013FB86 /* TitleScreen.swift */,
+				AF693B9B1C97EB970013FB86 /* AppDelegate.swift */,
+				AF693B9F1C97EB970013FB86 /* Main.storyboard */,
+				AF693BA21C97EB970013FB86 /* Assets.xcassets */,
+				AF693BA41C97EB970013FB86 /* LaunchScreen.storyboard */,
+				AF693BA71C97EB970013FB86 /* Info.plist */,
+				AF693BD21C9807350013FB86 /* LePetitAventurier-Bridging-Header.h */,
+				AFD6E9101C98C3780055D0B4 /* TableView.swift */,
+			);
+			path = LePetitAventurier;
+			sourceTree = "<group>";
+		};
+		AF78263D1CA1388000885139 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				AF78262F1CA133E900885139 /* CollectionViewController.swift */,
+				AF7826391CA1375300885139 /* CollectionViewController.xib */,
+				AF7826351CA1367000885139 /* ContentCollectionViewCell.xib */,
+				AF78263B1CA137F400885139 /* CustomCollectionViewLayout.swift */,
+				AF7826371CA136E400885139 /* ContentCollectionViewCell.swift */,
+				AF7826311CA1344B00885139 /* DateCollectionViewCell.swift */,
+				AF7826331CA1353C00885139 /* DateCollectionViewCell.xib */,
+			);
+			name = Tables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF693B971C97EB970013FB86 /* LePetitAventurier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF693BAA1C97EB970013FB86 /* Build configuration list for PBXNativeTarget "LePetitAventurier" */;
+			buildPhases = (
+				C93006B5D38AA0C7094A02AD /* Check Pods Manifest.lock */,
+				AF693B941C97EB970013FB86 /* Sources */,
+				AF693B951C97EB970013FB86 /* Frameworks */,
+				AF693B961C97EB970013FB86 /* Resources */,
+				AE24715AE45439E91E7ED733 /* Embed Pods Frameworks */,
+				5FB643075B7F0BF214D9763A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LePetitAventurier;
+			productName = LePetitAventurier;
+			productReference = AF693B981C97EB970013FB86 /* LePetitAventurier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF693B901C97EB970013FB86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Regilyn Feliciano";
+				TargetAttributes = {
+					AF693B971C97EB970013FB86 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6T58HH8DHW;
+					};
+				};
+			};
+			buildConfigurationList = AF693B931C97EB970013FB86 /* Build configuration list for PBXProject "LePetitAventurier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF693B8F1C97EB970013FB86;
+			productRefGroup = AF693B991C97EB970013FB86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF693B971C97EB970013FB86 /* LePetitAventurier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF693B961C97EB970013FB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF693BC61C97EBDC0013FB86 /* dog.jpeg in Resources */,
+				AF693BC51C97EBDC0013FB86 /* cat.png in Resources */,
+				AF693BCE1C97EBDC0013FB86 /* title_notext.png in Resources */,
+				AF693BC71C97EBDC0013FB86 /* eiffel.jpg in Resources */,
+				AF693BC01C97EBDC0013FB86 /* AventurierBoyHead.png in Resources */,
+				AF693BA61C97EB970013FB86 /* LaunchScreen.storyboard in Resources */,
+				AF693BC91C97EBDC0013FB86 /* orange-polkadot-background.jpg in Resources */,
+				AF7826361CA1367000885139 /* ContentCollectionViewCell.xib in Resources */,
+				AFD6E90D1C989F3B0055D0B4 /* library.jpg in Resources */,
+				AF693BC21C97EBDC0013FB86 /* AventurierGirlHead.png in Resources */,
+				AF693BC41C97EBDC0013FB86 /* blue-polkadot-background.jpg in Resources */,
+				AF693BA31C97EB970013FB86 /* Assets.xcassets in Resources */,
+				AFD6E90A1C989F3B0055D0B4 /* garden.jpg in Resources */,
+				AF7826341CA1353C00885139 /* DateCollectionViewCell.xib in Resources */,
+				AF693BCD1C97EBDC0013FB86 /* snake.jpg in Resources */,
+				AF693BBF1C97EBDC0013FB86 /* Aventurier-1.png in Resources */,
+				AF78263A1CA1375300885139 /* CollectionViewController.xib in Resources */,
+				AFD6E90B1C989F3B0055D0B4 /* house.jpg in Resources */,
+				AF693BC31C97EBDC0013FB86 /* bird.jpg in Resources */,
+				AFD6E90E1C989F3B0055D0B4 /* playground.jpg in Resources */,
+				AF693BA11C97EB970013FB86 /* Main.storyboard in Resources */,
+				AF693BCF1C97EBDC0013FB86 /* title.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FB643075B7F0BF214D9763A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LePetitAventurier/Pods-LePetitAventurier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE24715AE45439E91E7ED733 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LePetitAventurier/Pods-LePetitAventurier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C93006B5D38AA0C7094A02AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF693B941C97EB970013FB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF693BCA1C97EBDC0013FB86 /* PlaytimeScreen.swift in Sources */,
+				AF693BC81C97EBDC0013FB86 /* FlashcardLesson.swift in Sources */,
+				AFD6E9091C989F3B0055D0B4 /* FlashcardGame.swift in Sources */,
+				AF693BCB1C97EBDC0013FB86 /* ProgressScreen.swift in Sources */,
+				AF7826321CA1344B00885139 /* DateCollectionViewCell.swift in Sources */,
+				AF7826301CA133EA00885139 /* CollectionViewController.swift in Sources */,
+				AFD6E9111C98C3780055D0B4 /* TableView.swift in Sources */,
+				AFD6E90C1C989F3B0055D0B4 /* LessonPage.swift in Sources */,
+				AF7826381CA136E400885139 /* ContentCollectionViewCell.swift in Sources */,
+				AF693BCC1C97EBDC0013FB86 /* SettingsPage.swift in Sources */,
+				AF693BD01C97EBDC0013FB86 /* TitleScreen.swift in Sources */,
+				AF78263C1CA137F400885139 /* CustomCollectionViewLayout.swift in Sources */,
+				AF693B9C1C97EB970013FB86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF693B9F1C97EB970013FB86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF693BA01C97EB970013FB86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF693BA41C97EB970013FB86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF693BA51C97EB970013FB86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF693BA81C97EB970013FB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		AF693BA91C97EB970013FB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF693BAB1C97EB970013FB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E73B21009CF24AB1D371A1E7 /* Pods-LePetitAventurier.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LePetitAventurier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ense471.LePetitAventurier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LePetitAventurier/LePetitAventurier-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF693BAC1C97EB970013FB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678EC46BB3CD817C87C5653C /* Pods-LePetitAventurier.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LePetitAventurier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ense471.LePetitAventurier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LePetitAventurier/LePetitAventurier-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF693B931C97EB970013FB86 /* Build configuration list for PBXProject "LePetitAventurier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF693BA81C97EB970013FB86 /* Debug */,
+				AF693BA91C97EB970013FB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF693BAA1C97EB970013FB86 /* Build configuration list for PBXNativeTarget "LePetitAventurier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF693BAB1C97EB970013FB86 /* Debug */,
+				AF693BAC1C97EB970013FB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF693B901C97EB970013FB86 /* Project object */;
+}
